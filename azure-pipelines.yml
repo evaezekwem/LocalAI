@@ -11,7 +11,7 @@ resources:
 variables:
   # Container registry service connection established during pipeline creation
   dockerRegistryServiceConnection: 'b07752f2-b319-45aa-9d44-fea79b1066b5'
-  imageRepository: 'aiservice'
+  imageRepository: 'ai-service'
   containerRegistry: 'localai.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/Dockerfile'
   tag: '$(Build.BuildId)'
